@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c93c575-13ca-4f4d-a553-8032f8295634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Selenium-Tests" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AntyCaptcha/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AntyCaptcha/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DatabaseTraining" beforeDir="false" afterPath="$PROJECT_DIR$/../DatabaseTraining" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PatientRegister/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PatientRegister/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PatientRegister/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PatientRegister/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PatientRegister/PatientRegister.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PatientRegister/PatientRegister.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PatientRegister/out/production/PatientRegister/CalendarForm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PatientRegister/out/production/PatientRegister/CalendarForm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PatientRegister/out/production/PatientRegister/CalendarForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../PatientRegister/out/production/PatientRegister/CalendarForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PatientRegister/src/CalendarForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PatientRegister/src/CalendarForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PatientRegister/src/DBstuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PatientRegister/src/DBstuff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test_hello/src/pl/kurs" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_hello/src/pl/kurs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XKomFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XKomFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,8 +24,39 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="573087408">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1027" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1027" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -24,12 +67,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/XKomFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/XKomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="731">
+              <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/XKomFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-265">
+              <caret line="21" column="112" selection-start-line="21" selection-start-column="112" selection-end-line="21" selection-end-column="112" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1753#1754#0" expanded="true" />
+                <element signature="e#1788#1789#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,12 +104,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/XKomTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/XKomFactory.java" />
       </list>
     </option>
@@ -63,10 +123,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="363" />
-    <option name="y" value="21" />
-    <option name="width" value="1401" />
-    <option name="height" value="972" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -80,19 +140,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="XKom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XKom" type="462c0819:PsiDirectoryNode" />
+              <item name="XKomSearchTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XKomSearchTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="XKom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XKom" type="462c0819:PsiDirectoryNode" />
+              <item name="XKomSearchTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XKomSearchTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="XKom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XKom" type="462c0819:PsiDirectoryNode" />
+              <item name="XKomSearchTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XKomSearchTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XKomSearchTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XKomSearchTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,7 +170,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554814985368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554840307734" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,6 +184,40 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="TestNG.XKomTest">
+    <configuration name="XKomTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XKom" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="XKomTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XKomTest.searchForSth" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XKom" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="XKomTest" />
+      <option name="METHOD_NAME" value="searchForSth" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.XKomTest" />
+      <item itemvalue="TestNG.XKomTest.searchForSth" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.XKomTest" />
+        <item itemvalue="TestNG.XKomTest.searchForSth" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -130,36 +232,72 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="XKomTest_searchForSth - 2019.04.09 at 21h 45m 50s.xml">
+      <configuration name="XKomTest.searchForSth" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 21h 46m 26s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 21h 47m 49s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 21h 49m 06s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 21h 52m 44s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 21h 58m 24s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 21h 59m 53s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 22h 00m 53s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 22h 01m 33s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomTest - 2019.04.09 at 22h 02m 35s.xml">
+      <configuration name="XKomTest" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -171,10 +309,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/XKomFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="-265">
+          <caret line="21" column="112" selection-start-line="21" selection-start-column="112" selection-end-line="21" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1753#1754#0" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/XKomTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
           </folding>
         </state>
       </provider>
