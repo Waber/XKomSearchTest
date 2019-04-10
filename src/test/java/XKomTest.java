@@ -2,6 +2,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -27,19 +28,23 @@ public class XKomTest {
     }
 
     @Test
-    public void searchForSth() throws IOException {
+    public void searchForSth() throws IOException, InterruptedException {
         xFactory = new XKomFactory(driver);
         xFactory.productSearch(product);
         xFactory.printProducts();
+
+        if(xFactory.checkForMoreSites()){
+            xFactory.nextSite();
+        }
+        Thread.sleep(1000);
+        driver.switchTo().defaultContent();
+        xFactory.productDetails();
     }
 
-    @Test
-    public void nextSite(){
-       xFactory.checkForMoreSites();
-    }
-/*
+
+
     @AfterTest
     public void cleanUp(){
         driver.close();
-    }*/
+    }
 }

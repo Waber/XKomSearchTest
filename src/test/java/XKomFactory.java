@@ -16,13 +16,13 @@ public class XKomFactory {
     @FindBy(xpath = "//*[@id=\"searchBar\"]/div[1]/div[3]/button")
     WebElement searchBtn;
 
-    @FindBy(xpath = "//*[@id=\"pageWrapper\"]/div[3]/div[2]/div[2]/div[5]/div/div/ul/li[5]/a")
-    WebElement searchAmount;
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[4]/div[1]/span[1]/span[1]")
+    WebElement siteCount;
 
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[4]/div[1]/a[2]")//nie działa
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[4]/div[1]/a[2]/i[1]")
     WebElement nextSiteBtn;
 
-    @FindBy(className = "name")
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]")
     WebElement product;
 
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[3]/div[1]/div[7]")
@@ -52,16 +52,14 @@ public class XKomFactory {
 
     public void productDetails(){
         product.click();
-        System.out.println(specification.getText());
+        System.out.println("\n" + specification.getText());
     }
 
-    public void checkForMoreSites(){
-       // int val = Integer.parseInt(searchAmount.getText());
-        //System.out.println(nextSiteBtn.isEnabled());
-        nextSiteBtn.click();
-      /*  if(val > 1){
-            return true;
-        }*/
+    public boolean checkForMoreSites(){
+       if(Integer.parseInt(siteCount.getText()) > 1){
+           return true;
+       }
+       return false;
     }
 
     public void nextSite(){
