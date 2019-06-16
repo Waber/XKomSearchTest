@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/../VehicleOOP/src/main/java/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VehicleOOP/src/main/java/Tank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VehicleOOP/src/main/java/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VehicleOOP/src/main/java/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VehicleOOP/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VehicleOOP/src/test/java/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Report/ReportClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Report/ReportClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,14 +38,14 @@
           <entry key="dummy" value="29" />
           <entry key="java" value="3709" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="157" />
+          <entry key="xml" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3709" />
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="XML" value="157" />
+          <entry key="XML" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -78,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Report/ReportClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -87,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -136,8 +135,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Report/ExtentReport.java" />
         <option value="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Report/ReportClass.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -155,11 +154,16 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="XKom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="XKom" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -379,7 +383,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -458,6 +455,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
         </state>
       </provider>
     </entry>
