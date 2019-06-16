@@ -1,59 +1,66 @@
+import Pages.XKomMainPage;
+import Report.ReportClass;
+import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.ITestResult;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class XKomTest {
+public class XKomSearchTest extends ReportClass {
 
    private WebDriver driver;
    private XKomMainPage xFactory;
    private String product = "apple";
+    private int siteCount;
 
-
-    @BeforeTest
+    @BeforeMethod
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "C:\\selenium-java-3.141.59\\chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(100, TimeUnit.MILLISECONDS);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(200, TimeUnit.MILLISECONDS);
         driver.get("https://www.x-kom.pl/");
         xFactory = new XKomMainPage(driver);
+        xFactory.productSearch(product);
         //product = JOptionPane.showInputDialog(null,"Podaj nazwę produktu");
     }
 
     @Test
     public void checkGetIntoProductDetails() throws IOException, InterruptedException {
-        xFactory.productSearch(product);
-        //xFactory.printProducts();
-/*
-        if(xFactory.checkForMoreSites()){
-            xFactory.nextSite();
-        }
-        Thread.sleep(500);
-  */
+        //xFactory.printProducts(); //wyświetli listę produktów wyświetlonych na stronie
+        setTest(getExtent().createTest("Pierwszy przypadek", "Sprawdzanie szczegółów produktu"));
+
         driver.switchTo().defaultContent();
         Assert.assertTrue(xFactory.productDetails());
     }
 
     @Test
     public void checkGoingToNextSite(){
-        xFactory.productSearch(product);
+        setTest(getExtent().createTest("Drugi przypadek"));
+
         if(xFactory.checkForMoreSites()){
             xFactory.nextSite();
         }
         Assert.assertTrue((xFactory.getSiteCount() > 1));
     }
 
+    @Test
+    public void checkIfProducerFilterReducePagesAmount() throws InterruptedException {
+        setTest(getExtent().createTest("Trzeci test", "Gówno opis"));
 
+        siteCount = xFactory.getSiteCount();
+        xFactory.ProducerChekboxCheck();
+        Thread.sleep(1000); //w celu odczekania na odświeżenie strony
+        Assert.assertTrue(xFactory.getSiteCount() < siteCount);
 
+    }
 
-
-    @AfterTest
-    public void cleanUp(){
-        driver.close();
+    @AfterMethod
+    public void tearDown(){
+        driver.quit();
     }
 }

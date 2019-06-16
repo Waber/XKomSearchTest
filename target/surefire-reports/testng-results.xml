@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="XKomSearchTest" duration-ms="36826" started-at="2019-06-16T15:43:17Z" finished-at="2019-06-16T15:43:54Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="36826" started-at="2019-06-16T15:43:17Z" finished-at="2019-06-16T15:43:54Z">
+      <class name="XKomSearchTest">
+        <test-method status="PASS" signature="reportSetUp()[pri:0, instance:XKomSearchTest@52af6cff]" name="reportSetUp" is-config="true" duration-ms="131" started-at="2019-06-16T15:43:17Z" finished-at="2019-06-16T15:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:XKomSearchTest@52af6cff]" name="setUp" is-config="true" duration-ms="9711" started-at="2019-06-16T15:43:17Z" finished-at="2019-06-16T15:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkGetIntoProductDetails()[pri:0, instance:XKomSearchTest@52af6cff]" name="checkGetIntoProductDetails" duration-ms="5855" started-at="2019-06-16T15:43:26Z" finished-at="2019-06-16T15:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGetIntoProductDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:XKomSearchTest@52af6cff]" name="tearDown" is-config="true" duration-ms="673" started-at="2019-06-16T15:43:32Z" finished-at="2019-06-16T15:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:XKomSearchTest@52af6cff]" name="getResult" is-config="true" duration-ms="5" started-at="2019-06-16T15:43:33Z" finished-at="2019-06-16T15:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkGetIntoProductDetails status=SUCCESS method=XKomSearchTest.checkGetIntoProductDetails()[pri:0, instance:XKomSearchTest@52af6cff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:XKomSearchTest@52af6cff]" name="setUp" is-config="true" duration-ms="7868" started-at="2019-06-16T15:43:33Z" finished-at="2019-06-16T15:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkGoingToNextSite()[pri:0, instance:XKomSearchTest@52af6cff]" name="checkGoingToNextSite" duration-ms="216" started-at="2019-06-16T15:43:41Z" finished-at="2019-06-16T15:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGoingToNextSite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:XKomSearchTest@52af6cff]" name="tearDown" is-config="true" duration-ms="670" started-at="2019-06-16T15:43:41Z" finished-at="2019-06-16T15:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:XKomSearchTest@52af6cff]" name="setUp" is-config="true" duration-ms="8750" started-at="2019-06-16T15:43:42Z" finished-at="2019-06-16T15:43:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:XKomSearchTest@52af6cff]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-16T15:43:42Z" finished-at="2019-06-16T15:43:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkGoingToNextSite status=SUCCESS method=XKomSearchTest.checkGoingToNextSite()[pri:0, instance:XKomSearchTest@52af6cff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="checkIfProducerFilterReducePagesAmount()[pri:0, instance:XKomSearchTest@52af6cff]" name="checkIfProducerFilterReducePagesAmount" duration-ms="2413" started-at="2019-06-16T15:43:50Z" finished-at="2019-06-16T15:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfProducerFilterReducePagesAmount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:XKomSearchTest@52af6cff]" name="tearDown" is-config="true" duration-ms="652" started-at="2019-06-16T15:43:53Z" finished-at="2019-06-16T15:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:XKomSearchTest@52af6cff]" name="getResult" is-config="true" duration-ms="0" started-at="2019-06-16T15:43:54Z" finished-at="2019-06-16T15:43:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkIfProducerFilterReducePagesAmount status=SUCCESS method=XKomSearchTest.checkIfProducerFilterReducePagesAmount()[pri:0, instance:XKomSearchTest@52af6cff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="reportAfterTestSuite()[pri:0, instance:XKomSearchTest@52af6cff]" name="reportAfterTestSuite" is-config="true" duration-ms="196" started-at="2019-06-16T15:43:54Z" finished-at="2019-06-16T15:43:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportAfterTestSuite -->
+      </class> <!-- XKomSearchTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- XKomSearchTest -->
+</testng-results>

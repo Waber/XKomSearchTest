@@ -1,3 +1,5 @@
+package Pages;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,7 +29,10 @@ public class XKomMainPage {
     WebElement product;
 
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[3]/div[1]/div[7]")
-    WebElement specification;
+    WebElement specification; //specification field in details page of an searched item
+
+    @FindBy(name = "f[manufacturers][357]")
+    WebElement producerCheckbox;
 
 
     //Main page
@@ -79,5 +84,10 @@ public class XKomMainPage {
 
     public int getSiteCount() {
         return Integer.parseInt(siteCount.getText());
+    }
+
+
+    public void ProducerChekboxCheck(){
+        producerCheckbox.click();
     }
 }
