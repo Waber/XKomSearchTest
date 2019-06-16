@@ -1,21 +1,18 @@
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import javax.swing.*;
 import java.io.IOException;
-import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class XKomTest {
 
-    WebDriver driver;
-    XKomFactory xFactory;
-    String product;
+   private WebDriver driver;
+   private XKomMainPage xFactory;
+   private String product = "apple";
 
 
     @BeforeTest
@@ -24,22 +21,34 @@ public class XKomTest {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(100, TimeUnit.MILLISECONDS);
         driver.get("https://www.x-kom.pl/");
-        product = JOptionPane.showInputDialog(null,"Podaj nazwę produktu");
+        xFactory = new XKomMainPage(driver);
+        //product = JOptionPane.showInputDialog(null,"Podaj nazwę produktu");
     }
 
     @Test
-    public void searchForSth() throws IOException, InterruptedException {
-        xFactory = new XKomFactory(driver);
+    public void checkGetIntoProductDetails() throws IOException, InterruptedException {
         xFactory.productSearch(product);
-        xFactory.printProducts();
-
+        //xFactory.printProducts();
+/*
         if(xFactory.checkForMoreSites()){
             xFactory.nextSite();
         }
-        Thread.sleep(1000);
+        Thread.sleep(500);
+  */
         driver.switchTo().defaultContent();
-        xFactory.productDetails();
+        Assert.assertTrue(xFactory.productDetails());
     }
+
+    @Test
+    public void checkGoingToNextSite(){
+        xFactory.productSearch(product);
+        if(xFactory.checkForMoreSites()){
+            xFactory.nextSite();
+        }
+        Assert.assertTrue((xFactory.getSiteCount() > 1));
+    }
+
+
 
 
 

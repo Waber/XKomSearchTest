@@ -6,9 +6,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class XKomFactory {
+public class XKomMainPage {
 
-    WebDriver driver;
+    private WebDriver driver;
+    private String productText;
 
     @FindBy(xpath = "//*[@id=\"searchBar\"]/div[1]/div[1]/input")
     WebElement searchField;
@@ -29,10 +30,15 @@ public class XKomFactory {
     WebElement specification;
 
 
+    //Main page
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[8]/div[1]/nav[1]/ul[1]/li[1]/a[1]")
+    WebElement categorySoftwareHover;
 
 
 
-    public XKomFactory(WebDriver driver){
+
+
+    public XKomMainPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
@@ -50,9 +56,14 @@ public class XKomFactory {
         }
     }
 
-    public void productDetails(){
+    public boolean productDetails(){
+        productText = product.getText();
+       // System.out.println(product);
+        //System.out.println(product.getText()); //Działają obie metody pobrania tekstu, lepsza wydaje się getText
+
         product.click();
-        System.out.println("\n" + specification.getText());
+       // System.out.println("\n" + specification.getText());
+       return driver.getTitle().contains(productText);//zwraca true :) czyli tytuł strony musi zawierać opis kafla przedmiotu
     }
 
     public boolean checkForMoreSites(){
@@ -64,5 +75,9 @@ public class XKomFactory {
 
     public void nextSite(){
         nextSiteBtn.click();
+    }
+
+    public int getSiteCount() {
+        return Integer.parseInt(siteCount.getText());
     }
 }
