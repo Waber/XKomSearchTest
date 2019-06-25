@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: XKomSearchTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.547 sec
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 72.022 sec <<< FAILURE!
+checkPriceFilter(XKomSearchTest)  Time elapsed: 4.383 sec  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "5399.00z³"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at Pages.XKomSearchPage.getPricesList(XKomSearchPage.java:119)
+	at XKomSearchTest.checkPriceFilter(XKomSearchTest.java:81)
+

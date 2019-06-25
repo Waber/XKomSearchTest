@@ -9,12 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">XKomSearchTest</th></tr>
-<tr><td><a href="#t0">Command line test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">36,826</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">1</td><td class="num">69,905</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">XKomSearchTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">XKomSearchTest</td><td><a href="#m0">checkGetIntoProductDetails</a></td><td rowspan="1">1560699806926</td><td rowspan="1">5855</td></tr><tr class="passedeven"><td><a href="#m1">checkGoingToNextSite</a></td><td rowspan="1">1560699821329</td><td rowspan="1">216</td></tr><tr class="passedeven"><td><a href="#m2">checkIfProducerFilterReducePagesAmount</a></td><td rowspan="1">1560699830965</td><td rowspan="1">2413</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">XKomSearchTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">XKomSearchTest</td><td><a href="#m0">checkPriceFilter</a></td><td rowspan="1">1561487224480</td><td rowspan="1">4378</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">XKomSearchTest</td><td><a href="#m1">checkGetIntoProductDetails</a></td><td rowspan="1">1561487171268</td><td rowspan="1">7204</td></tr><tr class="passedeven"><td><a href="#m2">checkGoingToNextSite</a></td><td rowspan="1">1561487190758</td><td rowspan="1">547</td></tr><tr class="passedeven"><td><a href="#m3">checkIfProducerFilterReducePagesAmount</a></td><td rowspan="1">1561487206491</td><td rowspan="1">5332</td></tr></tbody>
 </table>
-<h2>Command line test</h2><h3 id="m0">XKomSearchTest#checkGetIntoProductDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">XKomSearchTest#checkGoingToNextSite</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">XKomSearchTest#checkIfProducerFilterReducePagesAmount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Command line test</h2><h3 id="m0">XKomSearchTest#checkPriceFilter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;5399.00zł&quot;
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at Pages.XKomSearchPage.getPricesList(XKomSearchPage.java:119)
+	at XKomSearchTest.checkPriceFilter(XKomSearchTest.java:81)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">XKomSearchTest#checkGetIntoProductDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">XKomSearchTest#checkGoingToNextSite</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">XKomSearchTest#checkIfProducerFilterReducePagesAmount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

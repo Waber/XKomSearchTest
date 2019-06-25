@@ -1,68 +1,157 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="XKomSearchTest" time="8.483" errors="0" skipped="0">
+<testsuite tests="4" failures="1" name="XKomSearchTest" time="17.466" errors="0" skipped="0">
   <properties>
-    <property name="idea.version" value="2018.2.5"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="java.vm.version" value="25.181-b13"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Standard\IdeaProjects\XKomSearchTest"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=";"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="PL"/>
+    <property name="JOB_NAME" value="XKomJob"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value=""/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4657c1a00a5246ce"/>
+    <property name="POM_ARTIFACTID" value="XKom"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="MIC_LD_LIBRARY_PATH" value="C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="XKom"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
+    <property name="user.name" value="PRZEWAB-HP$"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="pl"/>
+    <property name="JOB_BASE_NAME" value="XKomJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/XKomJob/67/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#67"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="PRZEWAB-HP$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="BUILD_ID" value="67"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="maven.conf" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0\conf"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="PL"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.1"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/XKomJob/67/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/XKomJob/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="GRADLE_HOME" value="C:\gradle-4.10.2"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.1"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="COMPUTERNAME" value="PRZEWAB-HP"/>
+    <property name="user.script" value=""/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="POM_GROUPID" value="XKom"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-XKomJob-67"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4657c1a00a5246ce"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\gradle-4.10.2\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 51668"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-11.0.1/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\gradle-4.10.2\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\Standard\IdeaProjects\XKomSearchTest"/>
-    <property name="java.runtime.version" value="1.8.0_181-b13"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.1/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/XKomJob/67/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\Standard\AppData\Local\Temp\"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="C:\Users\Standard\IdeaProjects\XkomSearchTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/XKomJob/"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.4\plugins\maven\lib\maven3\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1250"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\gradle-4.10.2\bin;C:\Users\Standard\AppData\Local\Microsoft\WindowsApps;C:\Users\Standard\AppData\Local\atom\bin;."/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="user.home" value="C:\Users\Standard"/>
-    <property name="user.timezone" value="Europe/Belgrade"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="Standard"/>
-    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.4\lib\idea_rt.jar"/>
-    <property name="java.vm.specification.version" value="1.8"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.5 clean install"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="pl"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_181"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.2.4\plugins\maven\lib\maven3"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="BUILD_NUMBER" value="67"/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="INTEL_DEV_REDIST" value="C:\Program Files (x86)\Common Files\Intel\Shared Libraries\"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\XKomJob"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="18.9"/>
   </properties>
-  <testcase classname="XKomSearchTest" name="checkGetIntoProductDetails" time="5.856"/>
-  <testcase classname="XKomSearchTest" name="checkGoingToNextSite" time="0.215"/>
-  <testcase classname="XKomSearchTest" name="checkIfProducerFilterReducePagesAmount" time="2.412"/>
+  <testcase classname="XKomSearchTest" name="checkGetIntoProductDetails" time="7.206"/>
+  <testcase classname="XKomSearchTest" name="checkGoingToNextSite" time="0.546"/>
+  <testcase classname="XKomSearchTest" name="checkIfProducerFilterReducePagesAmount" time="5.331"/>
+  <testcase classname="XKomSearchTest" name="checkPriceFilter" time="4.383">
+    <failure message="For input string: &quot;5399.00zł&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;5399.00zł&quot;
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:543)
+	at Pages.XKomSearchPage.getPricesList(XKomSearchPage.java:119)
+	at XKomSearchTest.checkPriceFilter(XKomSearchTest.java:81)
+</failure>
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 35402
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1561487213.822][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+Jun 25, 2019 8:26:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
 </testsuite>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c93c575-13ca-4f4d-a553-8032f8295634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AntyCaptcha/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AntyCaptcha/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Test_hello/src/pl/kurs" beforeDir="false" afterPath="$PROJECT_DIR$/../Test_hello/src/pl/kurs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VehicleOOP/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../VehicleOOP/.idea/vcs.xml" afterDir="false" />
@@ -10,6 +11,50 @@
       <change beforePath="$PROJECT_DIR$/../VehicleOOP/src/main/java/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VehicleOOP/src/main/java/Tank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VehicleOOP/src/main/java/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VehicleOOP/src/main/java/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../VehicleOOP/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../VehicleOOP/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/XKomMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/XKomSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/XKom-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Jenkins2nd/Xkom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Jenkins2nd/Xkom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-XKomSearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-XKomSearchTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-XKomSearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-XKomSearchTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-XKomTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/Xkom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Jenkins2nd/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/XKomMainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Report/ReportClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Report/ReportClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/XKomFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/XKomSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/XKomSearchTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/XkomMainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testReport.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,36 +68,41 @@
     <session id="573087408">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="29" />
-          <entry key="java" value="3709" />
+          <entry key="dummy" value="39" />
+          <entry key="java" value="5777" />
+          <entry key="properties" value="79" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="198" />
+          <entry key="xml" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3709" />
-          <entry key="PLAIN_TEXT" value="40" />
-          <entry key="XML" value="198" />
+          <entry key="JAVA" value="5777" />
+          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="Properties" value="79" />
+          <entry key="XML" value="230" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="html" value="3" />
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
+          <entry key="properties" value="2" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
@@ -60,7 +110,8 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
+          <entry key="Properties" value="2" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -68,29 +119,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/XKomSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="204">
+              <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Report/ReportClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="383">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -105,10 +150,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomMainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomSearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="323">
+              <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3677#3685#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,12 +180,15 @@
         <option value="$PROJECT_DIR$/src/test/java/XKomTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/XKomFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/XKomMainPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/XKomMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Report/ExtentReport.java" />
-        <option value="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Report/ReportClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/XKomMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/XKomSearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" />
       </list>
     </option>
   </component>
@@ -177,6 +229,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,7 +262,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XKomSearchTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XKomSearchTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XKomSearchTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XKomSearchTest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XKomSearchTest" type="b2602c69:ProjectViewProjectNode" />
@@ -219,13 +286,24 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560700282801" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561488735696" />
+    <property name="last_opened_file_path" value="D:/FrontEnd" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.36241612" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Standard\IdeaProjects\XKomSearchTest\src" />
+      <recent name="C:\Users\Standard\IdeaProjects\XKomSearchTest\src\test\resources" />
+      <recent name="C:\Users\Standard\IdeaProjects\XKomSearchTest\src\test\java" />
+      <recent name="C:\Users\Standard\IdeaProjects\XKomSearchTest\src\test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,7 +317,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.XKomSearchTest">
+  <component name="RunManager" selected="TestNG.XKomSearchTest.checkPriceFilter">
     <configuration name="C:/Users/Standard/IdeaProjects/XKomSearchTest/testng.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="XKom" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -269,6 +347,18 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XKomSearchTest.checkGetIntoProductDetails" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XKom" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="XKomSearchTest" />
+      <option name="METHOD_NAME" value="checkGetIntoProductDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -307,6 +397,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XKomSearchTest.checkPriceFilter" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XKom" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="XKomSearchTest" />
+      <option name="METHOD_NAME" value="checkPriceFilter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="XKomSearchTest.searchForSth" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="XKom" />
       <option name="PACKAGE_NAME" value="" />
@@ -325,9 +427,13 @@
       <item itemvalue="TestNG.XKomSearchTest.searchForSth" />
       <item itemvalue="TestNG.XKomSearchTest.checkGoingToNextSite" />
       <item itemvalue="TestNG.XKomSearchTest.checkIfProducerFilterReducePagesAmount" />
+      <item itemvalue="TestNG.XKomSearchTest.checkPriceFilter" />
+      <item itemvalue="TestNG.XKomSearchTest.checkGetIntoProductDetails" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.XKomSearchTest.checkPriceFilter" />
+        <item itemvalue="TestNG.XKomSearchTest.checkGetIntoProductDetails" />
         <item itemvalue="TestNG.XKomSearchTest.checkIfProducerFilterReducePagesAmount" />
         <item itemvalue="TestNG.XKomSearchTest.checkGoingToNextSite" />
         <item itemvalue="TestNG.XKomSearchTest.searchForSth" />
@@ -348,42 +454,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XKomSearchTest_checkIfProducerFilterReducePagesAmount - 2019.06.13 at 18h 54m 47s.xml">
-      <configuration name="XKomSearchTest.checkIfProducerFilterReducePagesAmount" configurationId="TestNG" />
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 19h 52m 48s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest_checkIfProducerFilterReducePagesAmount - 2019.06.13 at 20h 38m 53s.xml">
-      <configuration name="XKomSearchTest.checkIfProducerFilterReducePagesAmount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XKomSearchTest_checkIfProducerFilterReducePagesAmount - 2019.06.13 at 20h 39m 58s.xml">
-      <configuration name="XKomSearchTest.checkIfProducerFilterReducePagesAmount" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Standard_IdeaProjects_XKomSearchTest_testng_xml - 2019.06.13 at 20h 42m 49s.xml">
-      <configuration name="C:/Users/Standard/IdeaProjects/XKomSearchTest/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XKomSearchTest - 2019.06.13 at 20h 49m 09s.xml">
+    <history-entry file="XKomSearchTest - 2019.06.25 at 20h 00m 16s.xml">
       <configuration name="XKomSearchTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest - 2019.06.13 at 20h 49m 23s.xml">
-      <configuration name="XKomSearchTest" configurationId="TestNG" />
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 20h 04m 22s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Standard_IdeaProjects_XKomSearchTest_testng_xml - 2019.06.13 at 20h 49m 44s.xml">
-      <configuration name="C:/Users/Standard/IdeaProjects/XKomSearchTest/testng.xml" configurationId="TestNG" />
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 20h 10m 49s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Standard_IdeaProjects_XKomSearchTest_testng_xml - 2019.06.16 at 17h 31m 52s.xml">
-      <configuration name="C:/Users/Standard/IdeaProjects/XKomSearchTest/testng.xml" configurationId="TestNG" />
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 20h 26m 59s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest - 2019.06.16 at 17h 34m 24s.xml">
-      <configuration name="XKomSearchTest" configurationId="TestNG" />
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 20h 30m 42s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest - 2019.06.16 at 17h 45m 51s.xml">
-      <configuration name="XKomSearchTest" configurationId="TestNG" />
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 20h 33m 21s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 20h 35m 26s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 20h 41m 14s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.06.25 at 20h 44m 46s.xml">
+      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,6 +507,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -430,10 +537,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/XKomSearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Report/ReportClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -444,27 +558,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/test/java/resources.properties">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Report/ReportClass.java">
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="383">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="84" selection-start-line="22" selection-start-column="84" selection-end-line="22" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3677#3685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/XKomSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36241612" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>XKom</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36241612" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.aventstack:extentreports:4.0.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36241612" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />

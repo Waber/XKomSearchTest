@@ -1,36 +1,46 @@
-import Pages.XKomMainPage;
+import Pages.XKomSearchPage;
 import Report.ReportClass;
-import com.aventstack.extentreports.ExtentTest;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
-import org.testng.ITestResult;
 import org.testng.annotations.*;
 
-import java.io.IOException;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class XKomSearchTest extends ReportClass {
 
+
    private WebDriver driver;
-   private XKomMainPage xFactory;
+   private XKomSearchPage xFactory;
    private String product = "apple";
     private int siteCount;
+    private final static Logger log = LoggerFactory.getLogger("XKomSearchTest");
+
 
     @BeforeMethod
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "C:\\selenium-java-3.141.59\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(200, TimeUnit.MILLISECONDS);
+        driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
         driver.get("https://www.x-kom.pl/");
-        xFactory = new XKomMainPage(driver);
+        xFactory = new XKomSearchPage(driver);
         xFactory.productSearch(product);
         //product = JOptionPane.showInputDialog(null,"Podaj nazwę produktu");
+        log.info("SetUP");
+    }
+
+    @AfterMethod
+    public void tearDown(){
+        driver.quit();
     }
 
     @Test
-    public void checkGetIntoProductDetails() throws IOException, InterruptedException {
+    public void checkGetIntoProductDetails() {
         //xFactory.printProducts(); //wyświetli listę produktów wyświetlonych na stronie
         setTest(getExtent().createTest("Pierwszy przypadek", "Sprawdzanie szczegółów produktu"));
 
@@ -56,11 +66,29 @@ public class XKomSearchTest extends ReportClass {
         xFactory.ProducerChekboxCheck();
         Thread.sleep(1000); //w celu odczekania na odświeżenie strony
         Assert.assertTrue(xFactory.getSiteCount() < siteCount);
-
     }
 
-    @AfterMethod
-    public void tearDown(){
-        driver.quit();
+    @Test
+    public void checkPriceFilter() throws InterruptedException {
+        setTest(getExtent().createTest("Czwarty przypadek", "Sprawdzenie filtra finansowego"));
+
+        double from = 4000.00;
+        double to = 6000.00;
+        boolean priceWithinRange = true;
+
+        xFactory.setPriceRange(from, to);
+        Thread.sleep(3000);
+
+        List<Double> priceList = xFactory.getPricesList();
+
+        for (double pr : priceList){
+            if(pr < from && pr > to){
+                priceWithinRange = false;
+            }
+        }
+
+        Assert.assertTrue(priceWithinRange);
     }
+
+
 }

@@ -1,23 +1,27 @@
 package Pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.logging.Log;
+
+
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+
+import java.util.ArrayList;
 import java.util.List;
 
-public class XKomMainPage {
+
+
+
+public class XKomSearchPage {
 
     private WebDriver driver;
     private String productText;
+    private final static Logger log = LoggerFactory.getLogger(XKomSearchPage.class);
 
-    @FindBy(xpath = "//*[@id=\"searchBar\"]/div[1]/div[1]/input")
-    WebElement searchField;
-
-    @FindBy(xpath = "//*[@id=\"searchBar\"]/div[1]/div[3]/button")
-    WebElement searchBtn;
 
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[4]/div[1]/span[1]/span[1]")
     WebElement siteCount;
@@ -32,18 +36,32 @@ public class XKomMainPage {
     WebElement specification; //specification field in details page of an searched item
 
     @FindBy(name = "f[manufacturers][357]")
-    WebElement producerCheckbox;
+    WebElement producerCheckbox; //filter for first produccer
+
+    @FindBy(name = "f[price][from]")
+    WebElement priceRangeFrom; //price filter
+
+    @FindBy(name = "f[price][to]")
+    WebElement priceRangeTo;
+
+    @FindBy(className = "prices")
+    List<WebElement> productPrices; // do sprawdzenia
+
+    @FindBy(className = "prices")
+    WebElement testElementPrice;
 
 
-    //Main page
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[8]/div[1]/nav[1]/ul[1]/li[1]/a[1]")
-    WebElement categorySoftwareHover;
+    //Main page start elements
+    @FindBy(xpath = "//*[@id=\"searchBar\"]/div[1]/div[1]/input")
+    WebElement searchField;
+
+    @FindBy(xpath = "//*[@id=\"searchBar\"]/div[1]/div[3]/button")
+    WebElement searchBtn;
 
 
 
 
-
-    public XKomMainPage(WebDriver driver){
+    public XKomSearchPage(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
@@ -63,19 +81,14 @@ public class XKomMainPage {
 
     public boolean productDetails(){
         productText = product.getText();
-       // System.out.println(product);
-        //System.out.println(product.getText()); //Działają obie metody pobrania tekstu, lepsza wydaje się getText
+        log.info("productText value: "+productText);
 
         product.click();
-       // System.out.println("\n" + specification.getText());
        return driver.getTitle().contains(productText);//zwraca true :) czyli tytuł strony musi zawierać opis kafla przedmiotu
     }
 
     public boolean checkForMoreSites(){
-       if(Integer.parseInt(siteCount.getText()) > 1){
-           return true;
-       }
-       return false;
+        return Integer.parseInt(siteCount.getText()) > 1;
     }
 
     public void nextSite(){
@@ -90,4 +103,22 @@ public class XKomMainPage {
     public void ProducerChekboxCheck(){
         producerCheckbox.click();
     }
+
+    public void setPriceRange(double from, double to){
+        priceRangeFrom.sendKeys(String.valueOf(from));
+        priceRangeTo.sendKeys(String.valueOf(to));
+        log.info("Ustawiono widełki");
+    }
+
+    public List<Double> getPricesList(){ //do dokończenia, problem z  parsowaniem
+        List<Double> prices = new ArrayList<Double>(0);
+
+        for (int i = 0; i < productPrices.size(); i++){
+            prices.add(Double.parseDouble(productPrices.get(i).getText().replace("zł","").replace(",",".").replace(" ","")));
+        }
+
+        return prices;
+    }
+
+
 }
