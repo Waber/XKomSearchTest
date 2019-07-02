@@ -1,8 +1,7 @@
-import Pages.XKomSearchPage;
+import Pages.XKomSearchPageFactory;
 import Report.ReportClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.Assert;
@@ -15,7 +14,7 @@ public class XKomSearchTest extends ReportClass {
 
 
    private WebDriver driver;
-   private XKomSearchPage xFactory;
+   private XKomSearchPageFactory xFactory;
    private String product = "apple";
     private int siteCount;
     private final static Logger log = LoggerFactory.getLogger("XKomSearchTest");
@@ -28,10 +27,11 @@ public class XKomSearchTest extends ReportClass {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
         driver.get("https://www.x-kom.pl/");
-        xFactory = new XKomSearchPage(driver);
+        xFactory = new XKomSearchPageFactory(driver);
         xFactory.productSearch(product);
         //product = JOptionPane.showInputDialog(null,"Podaj nazwę produktu");
         log.info("SetUP");
+        getLog().info("setUp z klasy bazowej");
     }
 
     @AfterMethod
@@ -50,7 +50,7 @@ public class XKomSearchTest extends ReportClass {
 
     @Test
     public void checkGoingToNextSite(){
-        setTest(getExtent().createTest("Drugi przypadek"));
+        setTest(getExtent().createTest("Sprawdzanie przechodzenia do następnej strony"));
 
         if(xFactory.checkForMoreSites()){
             xFactory.nextSite();
@@ -60,7 +60,7 @@ public class XKomSearchTest extends ReportClass {
 
     @Test
     public void checkIfProducerFilterReducePagesAmount() throws InterruptedException {
-        setTest(getExtent().createTest("Trzeci test", "Gówno opis"));
+        setTest(getExtent().createTest("Trzeci test", "Sprawdzenie filtra producenta"));
 
         siteCount = xFactory.getSiteCount();
         xFactory.ProducerChekboxCheck();

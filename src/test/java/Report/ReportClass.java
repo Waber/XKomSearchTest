@@ -11,8 +11,9 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import utilities.Utilities;
 
-public class ReportClass {
+public class ReportClass extends Utilities {
 
     private static ExtentHtmlReporter htmlReporter;
     private static ExtentReports extent;

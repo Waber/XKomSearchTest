@@ -1,3 +1,6 @@
-Pages\XKomSearchPage.class
+Pages\XKomMainPageFactory.class
+Pages\XKomSearchPageFactory.class
+XKomMainPageTests.class
+utilities\Utilities.class
 Report\ReportClass.class
 XKomSearchTest.class

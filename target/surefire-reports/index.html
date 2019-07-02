@@ -156,8 +156,8 @@
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
 	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
 	at java.base/java.lang.Double.parseDouble(Double.java:543)
-	at Pages.XKomSearchPage.getPricesList(XKomSearchPage.java:119)
-	at XKomSearchTest.checkPriceFilter(XKomSearchTest.java:81)
+	at Pages.XKomSearchPageFactory.getPricesList(XKomSearchPageFactory.java:112)
+	at XKomSearchTest.checkPriceFilter(XKomSearchTest.java:82)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -248,24 +248,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'checkGetIntoProductDetails')
 data.setCell(0, 2, 'XKomSearchTest')
-data.setCell(0, 3, 7204);
+data.setCell(0, 3, 5339);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkIfProducerFilterReducePagesAmount')
+data.setCell(1, 1, 'checkPriceFilter')
 data.setCell(1, 2, 'XKomSearchTest')
-data.setCell(1, 3, 5332);
+data.setCell(1, 3, 3799);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkPriceFilter')
+data.setCell(2, 1, 'checkIfProducerFilterReducePagesAmount')
 data.setCell(2, 2, 'XKomSearchTest')
-data.setCell(2, 3, 4378);
+data.setCell(2, 3, 2187);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'checkGoingToNextSite')
 data.setCell(3, 2, 'XKomSearchTest')
-data.setCell(3, 3, 547);
+data.setCell(3, 3, 307);
 window.suiteTableData['XKomSearchTest']= { tableData: data, tableDiv: 'times-div-XKomSearchTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-XKomSearchTest">
               </div> <!-- times-div-XKomSearchTest -->
             </div> <!-- times-div -->
@@ -298,73 +298,73 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">160 ms</span>
+                <span class="method-start">149 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkGetIntoProductDetails</span>
-                <span class="method-start">11727 ms</span>
+                <span class="method-start">9714 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18932 ms</span>
+                <span class="method-start">15054 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=checkGetIntoProductDetails status=SUCCESS method=XKomSearchTest.checkGetIntoProduct...)</span>
-                <span class="method-start">19667 ms</span>
+                <span class="method-start">15694 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">19677 ms</span>
+                <span class="method-start">15701 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkGoingToNextSite</span>
-                <span class="method-start">31217 ms</span>
+                <span class="method-start">24516 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31764 ms</span>
+                <span class="method-start">24824 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=checkGoingToNextSite status=SUCCESS method=XKomSearchTest.checkGoingToNextSite()[pr...)</span>
-                <span class="method-start">32476 ms</span>
+                <span class="method-start">25452 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">32477 ms</span>
+                <span class="method-start">25452 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkIfProducerFilterReducePagesAmount</span>
-                <span class="method-start">46950 ms</span>
+                <span class="method-start">34517 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52282 ms</span>
+                <span class="method-start">36705 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=checkIfProducerFilterReducePagesAmount status=SUCCESS method=XKomSearchTest.checkIf...)</span>
-                <span class="method-start">53077 ms</span>
+                <span class="method-start">37330 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">53078 ms</span>
+                <span class="method-start">37331 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">checkPriceFilter</span>
-                <span class="method-start">64939 ms</span>
+                <span class="method-start">45525 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">69322 ms</span>
+                <span class="method-start">49326 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">getResult([TestResult name=checkPriceFilter status=FAILURE method=XKomSearchTest.checkPriceFilter()[pri:0, ins...)</span>
-                <span class="method-start">70044 ms</span>
+                <span class="method-start">49961 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">reportAfterTestSuite</span>
-                <span class="method-start">70093 ms</span>
+                <span class="method-start">49999 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

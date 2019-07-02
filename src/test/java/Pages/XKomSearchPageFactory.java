@@ -1,7 +1,5 @@
 package Pages;
 
-import org.apache.commons.logging.Log;
-
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
@@ -16,11 +14,11 @@ import java.util.List;
 
 
 
-public class XKomSearchPage {
+public class XKomSearchPageFactory {
 
     private WebDriver driver;
     private String productText;
-    private final static Logger log = LoggerFactory.getLogger(XKomSearchPage.class);
+    private final static Logger log = LoggerFactory.getLogger(XKomSearchPageFactory.class);
 
 
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[3]/div[2]/div[2]/div[3]/div[4]/div[1]/span[1]/span[1]")
@@ -36,7 +34,7 @@ public class XKomSearchPage {
     WebElement specification; //specification field in details page of an searched item
 
     @FindBy(name = "f[manufacturers][357]")
-    WebElement producerCheckbox; //filter for first produccer
+    WebElement producerCheckbox; //filter for first producer
 
     @FindBy(name = "f[price][from]")
     WebElement priceRangeFrom; //price filter
@@ -45,10 +43,7 @@ public class XKomSearchPage {
     WebElement priceRangeTo;
 
     @FindBy(className = "prices")
-    List<WebElement> productPrices; // do sprawdzenia
-
-    @FindBy(className = "prices")
-    WebElement testElementPrice;
+    List<WebElement> productPrices; // gather all elements price
 
 
     //Main page start elements
@@ -61,7 +56,7 @@ public class XKomSearchPage {
 
 
 
-    public XKomSearchPage(WebDriver driver){
+    public XKomSearchPageFactory(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver,this);
     }
@@ -114,7 +109,7 @@ public class XKomSearchPage {
         List<Double> prices = new ArrayList<Double>(0);
 
         for (int i = 0; i < productPrices.size(); i++){
-            prices.add(Double.parseDouble(productPrices.get(i).getText().replace("zł","").replace(",",".").replace(" ","")));
+            prices.add(Double.parseDouble(productPrices.get(i).getText().replace(",",".").replace(" ","").replace("zł","")));
         }
 
         return prices;

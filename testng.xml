@@ -2,9 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestyX-Kom">
 
-    <test name="wyszukiwanieProduktu">
+    <test name="TestyXKom">
         <classes>
             <class name="XKomSearchTest"/>
+            <class name="XKomMainPageTests"/>
         </classes>
     </test>
 </suite>
