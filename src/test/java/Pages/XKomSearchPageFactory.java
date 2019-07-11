@@ -79,7 +79,7 @@ public class XKomSearchPageFactory {
         log.info("productText value: "+productText);
 
         product.click();
-       return driver.getTitle().contains(productText);//zwraca true :) czyli tytuł strony musi zawierać opis kafla przedmiotu
+       return driver.getTitle().contains(productText);
     }
 
     public boolean checkForMoreSites(){
@@ -105,7 +105,7 @@ public class XKomSearchPageFactory {
         log.info("Ustawiono widełki");
     }
 
-    public List<Double> getPricesList(){ //do dokończenia, problem z  parsowaniem
+    public List<Double> getPricesList(){
         List<Double> prices = new ArrayList<Double>(0);
 
         for (int i = 0; i < productPrices.size(); i++){

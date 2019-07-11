@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="XKomSearchTest" time="11.639" errors="0" skipped="0">
+<testsuite tests="4" failures="1" name="XKomSearchTest" time="32.2" errors="0" skipped="0">
   <properties>
     <property name="JOB_NAME" value="XKomJob"/>
     <property name="java.vendor" value="Oracle Corporation"/>
@@ -26,8 +26,8 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="pl"/>
     <property name="JOB_BASE_NAME" value="XKomJob"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/XKomJob/74/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#74"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/XKomJob/82/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#82"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
@@ -38,7 +38,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="74"/>
+    <property name="BUILD_ID" value="82"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1250"/>
     <property name="maven.conf" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0\conf"/>
@@ -51,7 +51,7 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.1"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/XKomJob/74/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/XKomJob/82/display/redirect"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
@@ -74,7 +74,7 @@
     <property name="POM_GROUPID" value="XKom"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-XKomJob-74"/>
+    <property name="BUILD_TAG" value="jenkins-XKomJob-82"/>
     <property name="JENKINS_SERVER_COOKIE" value="4657c1a00a5246ce"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -89,7 +89,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59722"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59752"/>
     <property name="Path" value="C:\Program Files\Java\jdk-11.0.1/bin;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\gradle-4.10.2\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="jdk.debug" value="release"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -106,7 +106,7 @@
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_3.6.0/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/XKomJob/74/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/XKomJob/82/"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -118,7 +118,7 @@
 "/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="BUILD_NUMBER" value="74"/>
+    <property name="BUILD_NUMBER" value="82"/>
     <property name="PROCESSOR_REVISION" value="8e0a"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="INTEL_DEV_REDIST" value="C:\Program Files (x86)\Common Files\Intel\Shared Libraries\"/>
@@ -135,26 +135,26 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="java.vendor.version" value="18.9"/>
   </properties>
-  <testcase classname="XKomSearchTest" name="checkGetIntoProductDetails" time="5.341"/>
-  <testcase classname="XKomSearchTest" name="checkGoingToNextSite" time="0.308"/>
-  <testcase classname="XKomSearchTest" name="checkIfProducerFilterReducePagesAmount" time="2.188"/>
-  <testcase classname="XKomSearchTest" name="checkPriceFilter" time="3.802">
-    <failure message="For input string: &quot;5399.00zł&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;5399.00zł&quot;
+  <testcase classname="XKomSearchTest" name="checkGetIntoProductDetails" time="20.757"/>
+  <testcase classname="XKomSearchTest" name="checkGoingToNextSite" time="0.906"/>
+  <testcase classname="XKomSearchTest" name="checkIfProducerFilterReducePagesAmount" time="4.737"/>
+  <testcase classname="XKomSearchTest" name="checkPriceFilter" time="5.8">
+    <failure message="For input string: &quot;979.00zł&quot;" type="java.lang.NumberFormatException">java.lang.NumberFormatException: For input string: &quot;979.00zł&quot;
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
 	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
 	at java.base/java.lang.Double.parseDouble(Double.java:543)
 	at Pages.XKomSearchPageFactory.getPricesList(XKomSearchPageFactory.java:112)
 	at XKomSearchTest.checkPriceFilter(XKomSearchTest.java:82)
 </failure>
-    <system-out>20:26:35.173 [main] INFO XKomSearchTest - SetUP
-20:26:35.173 [main] INFO XKomTests - setUp z klasy bazowej
-20:26:35.927 [main] INFO Pages.XKomSearchPageFactory - Ustawiono wideĹ‚ki
+    <system-out>17:23:00.136 [main] INFO XKomSearchTest - SetUP
+17:23:00.136 [main] INFO XKomTests - setUp z klasy bazowej
+17:23:02.289 [main] INFO Pages.XKomSearchPageFactory - Ustawiono wideĹ‚ki
 </system-out>
-    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 29126
+    <system-err>Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 27993
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1562091987.979][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
-Jul 02, 2019 8:26:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1562858563.781][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+Jul 11, 2019 5:22:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>

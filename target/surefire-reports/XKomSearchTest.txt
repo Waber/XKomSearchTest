@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: XKomSearchTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.715 sec <<< FAILURE!
-checkPriceFilter(XKomSearchTest)  Time elapsed: 3.802 sec  <<< FAILURE!
-java.lang.NumberFormatException: For input string: "5399.00z³"
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 110.746 sec <<< FAILURE!
+checkPriceFilter(XKomSearchTest)  Time elapsed: 5.8 sec  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "979.00z³"
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
 	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
 	at java.base/java.lang.Double.parseDouble(Double.java:543)

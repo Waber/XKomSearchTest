@@ -1,6 +1,7 @@
+utilities\ReportClass.class
+utilities\ExcelUtil.class
+XKomSearchTest.class
 Pages\XKomMainPageFactory.class
 Pages\XKomSearchPageFactory.class
 XKomMainPageTests.class
-utilities\Utilities.class
-Report\ReportClass.class
-XKomSearchTest.class
+utilities\Logs.class

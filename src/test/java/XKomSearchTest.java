@@ -1,5 +1,5 @@
 import Pages.XKomSearchPageFactory;
-import Report.ReportClass;
+import utilities.ReportClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.slf4j.Logger;
