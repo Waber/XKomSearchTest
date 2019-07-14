@@ -47,10 +47,10 @@ public class XKomSearchPageFactory {
 
 
     //Main page start elements
-    @FindBy(xpath = "//*[@id=\"searchBar\"]/div[1]/div[1]/input")
+    @FindBy(xpath = "//*[@id=\"app-SearchBar\"]/div/div/div/div/div/div/div/div[1]/input")
     WebElement searchField;
 
-    @FindBy(xpath = "//*[@id=\"searchBar\"]/div[1]/div[3]/button")
+    @FindBy(xpath = "//*[@id=\"app-SearchBar\"]/div/div/div/div/div/div/div/button[2]")
     WebElement searchBtn;
 
 

@@ -22,8 +22,8 @@ public class XKomMainPageTests extends ReportClass {
 
     @BeforeMethod
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "C:\\selenium-java-3.141.59\\chromedriver.exe");
-        //WebDriverManager.chromedriver();
+        //System.setProperty("webdriver.chrome.driver", "C:\\selenium-java-3.141.59\\chromedriver.exe");
+        WebDriverManager.chromedriver().setup(); //zastęouje System.setProperty
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);

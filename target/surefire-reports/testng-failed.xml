@@ -7,6 +7,9 @@
         <methods>
           <include name="checkPriceFilter"/>
           <include name="tearDown"/>
+          <include name="checkGoingToNextSite"/>
+          <include name="checkIfProducerFilterReducePagesAmount"/>
+          <include name="checkGetIntoProductDetails"/>
           <include name="reportAfterTestSuite"/>
           <include name="reportSetUp"/>
           <include name="setUp"/>

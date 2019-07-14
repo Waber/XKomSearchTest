@@ -1,11 +1,12 @@
 import Pages.XKomSearchPageFactory;
-import utilities.ReportClass;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import utilities.ReportClass;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -17,12 +18,12 @@ public class XKomSearchTest extends ReportClass {
    private XKomSearchPageFactory xFactory;
    private String product = "apple";
     private int siteCount;
-    private final static Logger log = LoggerFactory.getLogger("XKomSearchTest");
 
 
     @BeforeMethod
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "C:\\selenium-java-3.141.59\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\selenium-java-3.141.59\\chromedriver.exe");
+        WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
@@ -30,7 +31,6 @@ public class XKomSearchTest extends ReportClass {
         xFactory = new XKomSearchPageFactory(driver);
         xFactory.productSearch(product);
         //product = JOptionPane.showInputDialog(null,"Podaj nazwę produktu");
-        log.info("SetUP");
         getLog().info("setUp z klasy bazowej");
     }
 
