@@ -16,7 +16,7 @@ public class XKomMainPageFactory {
     private Actions action;
 
 
-    @FindBy(className = "nav-item-1")
+    @FindBy(className = "")
     private WebElement hoverMenu;
 
     @FindBy(xpath = "//*[@id=\"navigation\"]/ul/li[1]/div/h3")
@@ -25,25 +25,41 @@ public class XKomMainPageFactory {
     @FindBy(xpath = "")
     private WebElement subcategory;
 
+
     public XKomMainPageFactory(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
         action = new Actions(driver);
     }
 
-    public void hoverOverMenuElement(){
+    public void hoverOverMenuElement(String menuItemClassName){
+        hoverMenu = driver.findElement(By.className(menuItemClassName));
         action.moveToElement(hoverMenu).perform();
     }
 
     public String hoverOverMenus(String menuItemClassName, String subcategory){
-        hoverMenu = driver.findElement(By.className(menuItemClassName));
         this.subcategory = driver.findElement(By.xpath(subcategory));
-        hoverOverMenuElement();
+        hoverOverMenuElement(menuItemClassName);
         return this.subcategory.getText();
     }
 
     public String findCategories(){
         return categoriesText.getText();
+    }
+
+    public void getIntoCategory(String menuItemClassName, String subcategory ){
+        hoverOverMenuElement(menuItemClassName);
+        this.subcategory = driver.findElement(By.linkText(subcategory));
+        this.subcategory.click();
+    }
+
+    public String getCategoryName(String category){
+        String categoryName = driver.findElement(By.className(category)).getText();
+        return categoryName.replace("\n", " ");
+    }
+
+    public String getTitle(){
+        return driver.getTitle();
     }
 
 

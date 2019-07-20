@@ -3,9 +3,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import utilities.ReportClass;
 
 import java.util.List;
@@ -20,21 +18,27 @@ public class XKomSearchTest extends ReportClass {
     private int siteCount;
 
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp(){
         //System.setProperty("webdriver.chrome.driver", "C:\\selenium-java-3.141.59\\chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(1000, TimeUnit.MILLISECONDS);
-        driver.get("https://www.x-kom.pl/");
+
         xFactory = new XKomSearchPageFactory(driver);
-        xFactory.productSearch(product);
+
         //product = JOptionPane.showInputDialog(null,"Podaj nazwę produktu");
         getLog().info("setUp z klasy bazowej");
     }
 
-    @AfterMethod
+    @BeforeMethod
+    public void beforeEachMethod(){
+        driver.get("https://www.x-kom.pl/");
+        xFactory.productSearch(product);
+    }
+
+    @AfterClass
     public void tearDown(){
         driver.quit();
     }
@@ -65,6 +69,8 @@ public class XKomSearchTest extends ReportClass {
         siteCount = xFactory.getSiteCount();
         xFactory.ProducerChekboxCheck();
         Thread.sleep(1000); //w celu odczekania na odświeżenie strony
+        getLog().info("Wartość siteCount przed filtrem "+siteCount);
+        getLog().info("Wartość pi filtrowaniu " + xFactory.getSiteCount());
         Assert.assertTrue(xFactory.getSiteCount() < siteCount);
     }
 

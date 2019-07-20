@@ -4,6 +4,8 @@ package Pages;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,6 +19,7 @@ import java.util.List;
 public class XKomSearchPageFactory {
 
     private WebDriver driver;
+    private WebDriverWait wait;
     private String productText;
     private final static Logger log = LoggerFactory.getLogger(XKomSearchPageFactory.class);
 
@@ -58,10 +61,13 @@ public class XKomSearchPageFactory {
 
     public XKomSearchPageFactory(WebDriver driver){
         this.driver = driver;
+        wait = new WebDriverWait(driver, 100);
         PageFactory.initElements(driver,this);
     }
 
     public void productSearch(String product){
+       // wait.until(ExpectedConditions.visibilityOf(searchBtn));
+        wait.until(ExpectedConditions.elementToBeClickable(searchBtn));//na potrzeby jenkinsa
         searchField.sendKeys(product);
         searchBtn.click();
     }

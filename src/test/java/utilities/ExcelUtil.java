@@ -50,6 +50,9 @@ public class ExcelUtil {
     public int rowCount(){
         return excellSheet.getLastRowNum();
     }
+    public int columnCount(int row){
+        return Integer.parseInt(getCellData(row, 1)) + 3;
+    }
 
     //metoda odczytuje dane z komórki
     public static String getCellData(int row, int col){

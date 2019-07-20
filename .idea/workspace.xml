@@ -15,25 +15,32 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/XKomSearchPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/XKomSearchPageFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/XKomMainPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XKomMainPageTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/XKomData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/XKomData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-XKomSearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-XKomSearchTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/Command line test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/Command line test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/XKomSearchTest/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-XKomSearchTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-XKomSearchTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/methods-alphabetical.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/XKomSearchTest/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/XKomMainPageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/XKomMainPageFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/XKomSearchPageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/XKomSearchPageFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/XKomData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/XKomData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/XKomMainPageTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/XKomMainPageTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/XKomSearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/XKomSearchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/~$XKomData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ReportClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ReportClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testReport.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,64 +55,65 @@
     <session id="573087408">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="52" />
-          <entry key="java" value="8342" />
+          <entry key="java" value="10064" />
           <entry key="properties" value="79" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="249" />
+          <entry key="xml" value="254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8342" />
+          <entry key="JAVA" value="10064" />
           <entry key="PLAIN_TEXT" value="63" />
           <entry key="Properties" value="79" />
-          <entry key="XML" value="249" />
+          <entry key="XML" value="254" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="html" value="6" />
-          <entry key="java" value="19" />
+          <entry key="java" value="21" />
           <entry key="properties" value="2" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="HTML" value="6" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="21" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="4" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/XKomSearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="536">
+              <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +124,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/XKomMainPageTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
+            <state relative-caret-position="296">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,11 +133,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="347">
+              <caret line="53" column="57" lean-forward="true" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1584#1585#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,29 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomMainPageFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomSearchPageFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="52" column="85" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
+            <state relative-caret-position="400">
+              <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,12 +195,12 @@
         <option value="$PROJECT_DIR$/src/test/java/Report/ReportClass.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/Logs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/XKomSearchPageFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/XKomMainPageTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/XKomMainPageFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/XKomSearchTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/XKomSearchPageFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/XKomMainPageTests.java" />
       </list>
     </option>
   </component>
@@ -250,6 +242,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,19 +288,14 @@
               <item name="XKomSearchTest" type="462c0819:PsiDirectoryNode" />
               <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="XKomSearchTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563119456100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563645924176" />
     <property name="last_opened_file_path" value="D:/FrontEnd" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -335,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Standard/IdeaProjects/XKomSearchTest/testng.xml">
+  <component name="RunManager" selected="TestNG.XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu">
     <configuration name="C:/Users/Standard/IdeaProjects/XKomSearchTest/testng.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
       <module name="XKom" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -347,6 +335,18 @@
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="XKom" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="XKomMainPageTests" />
+      <option name="METHOD_NAME" value="checkRedirectingToProperSiteFromHiddenMenu" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -407,26 +407,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XKomSearchTest.checkIfProducerFilterReducePagesAmount" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="XKom" />
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="XKomSearchTest" />
-      <option name="METHOD_NAME" value="checkIfProducerFilterReducePagesAmount" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="XKomSearchTest.checkPriceFilter" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="XKom" />
       <option name="PACKAGE_NAME" value="" />
@@ -442,19 +422,19 @@
     <list>
       <item itemvalue="TestNG.XKomSearchTest" />
       <item itemvalue="TestNG.C:/Users/Standard/IdeaProjects/XKomSearchTest/testng.xml" />
-      <item itemvalue="TestNG.XKomSearchTest.checkIfProducerFilterReducePagesAmount" />
       <item itemvalue="TestNG.XKomSearchTest.checkPriceFilter" />
       <item itemvalue="TestNG.XKomSearchTest.checkGetIntoProductDetails" />
       <item itemvalue="TestNG.XKomMainPageTests.testIfHiddenMenuAppearsAfterMouseHover" />
       <item itemvalue="TestNG.XKomMainPageTests.validateAllHiddenMenu" />
+      <item itemvalue="TestNG.XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" />
         <item itemvalue="TestNG.XKomMainPageTests.testIfHiddenMenuAppearsAfterMouseHover" />
         <item itemvalue="TestNG.XKomSearchTest.checkPriceFilter" />
         <item itemvalue="TestNG.XKomMainPageTests.validateAllHiddenMenu" />
         <item itemvalue="TestNG.XKomSearchTest.checkGetIntoProductDetails" />
-        <item itemvalue="TestNG.XKomSearchTest.checkIfProducerFilterReducePagesAmount" />
       </list>
     </recent_temporary>
   </component>
@@ -472,41 +452,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.07.11 at 19h 42m 01s.xml">
-      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.18 at 20h 34m 39s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.07.11 at 20h 02m 02s.xml">
-      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 19h 32m 48s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.07.11 at 20h 03m 10s.xml">
-      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 19h 39m 02s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.07.11 at 20h 04m 41s.xml">
-      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 19h 48m 04s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest_checkPriceFilter - 2019.07.11 at 20h 05m 26s.xml">
-      <configuration name="XKomSearchTest.checkPriceFilter" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 19h 51m 33s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Standard_IdeaProjects_XKomSearchTest_testng_xml - 2019.07.11 at 20h 07m 31s.xml">
-      <configuration name="C:/Users/Standard/IdeaProjects/XKomSearchTest/testng.xml" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 19h 55m 24s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomMainPageTests_testIfHiddenMenuAppearsAfterMouseHover - 2019.07.11 at 20h 22m 48s.xml">
-      <configuration name="XKomMainPageTests.testIfHiddenMenuAppearsAfterMouseHover" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 19h 56m 57s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest - 2019.07.14 at 17h 46m 19s.xml">
-      <configuration name="XKomSearchTest" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 20h 03m 16s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest - 2019.07.14 at 17h 48m 49s.xml">
-      <configuration name="XKomSearchTest" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 20h 04m 51s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XKomSearchTest - 2019.07.14 at 17h 50m 25s.xml">
-      <configuration name="XKomSearchTest" configurationId="TestNG" />
+    <history-entry file="XKomMainPageTests_checkRedirectingToProperSiteFromHiddenMenu - 2019.07.20 at 20h 10m 14s.xml">
+      <configuration name="XKomMainPageTests.checkRedirectingToProperSiteFromHiddenMenu" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31823027" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34434968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,7 +496,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,10 +504,10 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32790446" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
@@ -539,14 +520,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/net/SocketInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -563,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="41" column="95" selection-start-line="41" selection-start-column="95" selection-end-line="41" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Logs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -577,23 +549,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/XKomSearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomSearchPageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="-178">
+          <caret line="69" column="93" selection-start-line="69" selection-start-column="93" selection-end-line="69" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/XKomMainPageTests.java">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="79" selection-start-line="25" selection-start-column="79" selection-end-line="25" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -604,37 +573,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomMainPageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="468">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomSearchPageFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/XKomMainPageTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="52" column="85" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
+        <state relative-caret-position="296">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/XKomMainPageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="400">
+          <caret line="57" column="47" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/ExcelUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="53" column="57" lean-forward="true" selection-start-line="53" selection-start-column="57" selection-end-line="53" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/XKomSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
